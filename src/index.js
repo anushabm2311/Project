@@ -1,17 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import App from './App';
+
+// import Navbar from './Navbar';
+
+// import Grid from './grid';
+
+// import AddEmployee from './AddEmployee';
+
+// import EditEmployee from './EditEmployee';
+
+// import Header from './Header';
+
+// import DashBoard from './Dashboard';
+
+import Employee1 from './Employee';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+root.render(<Employee1/>);
+
+// root.render(<Navbar/>);
+// root.render(<Grid/>);
+// root.render(<Header/>);
+
+
+// root.render(<EditEmployee/>)
+
+// root.render(<AddEmployee/>);
+
+// root.render(<DashBoard/>);
+
+

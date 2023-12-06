@@ -1,0 +1,212 @@
+
+body{
+    margin: 10px;
+    background-color: rgba(245, 245, 245, 0);
+}
+.heading{
+    text-align: center;
+}
+
+.div-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cancel-logo{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 4px;
+    right: -178px;    
+}
+
+.Employee-container{
+    
+    width: 100%;
+    display: grid; 
+    justify-content: center;
+    position: sticky;
+
+}
+
+
+.Employee-box {
+   
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    width: 500px;
+    height: 100%;
+    border: 1px solid rgb(56, 54, 54);
+    border-color: black;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+}
+
+.form-group{
+    padding:1px;
+    width: 50%;
+}
+
+input{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 3px 0;
+    box-sizing: border-box;
+}
+select{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 3px 0;
+    box-sizing: border-box;
+}
+
+.mod{
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+    background-color: white;
+    height: 45px;
+    font-size: 11px;
+}
+
+.mod-1{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    font-weight: bold;
+
+}
+
+.Holidays{
+    background-color: rgba(192, 192, 192, 0.998);
+    display: flex;
+    flex-direction: row;
+    gap: 105px;
+    height: 40px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.holidays-1{
+    display: flex;
+    flex-direction: row;
+    gap:48px;
+
+
+}
+.Holidays2{
+    display: flex;
+    flex-direction: row;
+    gap: 114px;
+    background-color: white;
+    height: 40px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.holidays-2{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+
+}
+
+.Holidays3{
+    background-color: rgba(192, 192, 192, 0.998);
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    height: 40px;
+    font-size: 12px;
+
+}
+
+.holidays-3{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+
+}
+
+.Holidays4{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 123px;
+    height: 40px;
+    font-size: 12px;
+}
+
+.holidays-4{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.Holidays5{
+    background-color: rgba(192, 192, 192, 0.998);
+    display: flex;
+    flex-direction: row;
+    gap: 123px;
+    height: 40px;
+    font-size: 12px;
+}
+
+.holidays-5{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.Holidays6{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    height: 40px;
+    font-size: 12px;
+}
+
+.holidays-6{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+.Holidays7{
+    background-color: rgba(192, 192, 192, 0.998);
+    display: flex;
+    flex-direction: row;
+    gap:70px;
+    height: 40px;
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+.holidays-7{
+    display: flex;
+    flex-direction: row;
+    gap:48px;
+}
+
+.submit-button{
+    text-align: center;
+    
+}
+button{
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius:50px;
+    width: 100px;
+    height: 30px;
+    
+}
