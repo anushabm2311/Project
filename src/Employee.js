@@ -3,10 +3,10 @@ import Navbar from "./Header";
 import './Header.css'
 import DashBoard from './Dashboard';
 import './Dashboard.css'
-import AddEmployee from './AddEmployee'
-import './AddEmployee.css';
-import EditEmployee from './EditEmployee';
-import './EditEmployee.css';
+// import AddEmployee from './AddEmployee'
+// import './AddEmployee.css';
+// import EditEmployee from './EditEmployee';
+// import './EditEmployee.css';
 
 const Employee1 = () => {
     return (
@@ -14,7 +14,7 @@ const Employee1 = () => {
             <div>
                 <Navbar/>
                 <DashBoard/>
-                <br/>
+                {/* <br/>
                 <br/>
                 <br/>
                 <br/>
@@ -23,7 +23,7 @@ const Employee1 = () => {
                 <br/>
                 <br/>
             
-                <EditEmployee/>
+                <EditEmployee/> */}
             </div>
         </div>
     )

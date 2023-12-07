@@ -7,10 +7,12 @@ import cancel from './images/cancel.png'
 
 
 
-function AddEmployee(){
+function AddEmployee(isOpen){
+   if (!isOpen) return null;
 
     return(
-        <div className="Employee-container">
+      // className={`Employee-container ${isOpen ? 'show' : ''}`}  style={{ display: isOpen ? 'block' : 'none' }} 
+      <div className="Employee-container" >
              <div className="Employee-box">
                   <div className="div-1">
                   <h3 className="heading">Add Employee</h3>

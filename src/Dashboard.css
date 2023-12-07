@@ -44,6 +44,13 @@ h4{
     
 }
 
+.button-grid{
+    background-color: rgb(225, 221, 221);
+}
+.button-list{
+    background-color: rgb(225, 221, 221);
+}
+
 .div-1-1{
    width: 50%;
 }
@@ -106,7 +113,27 @@ input, select{
     line-height: 0px;
     text-align: center;
     padding-top: 17px;
+    display:flex;
+    flex-direction: row;
+   
 }
+.edit-icon{
+    height: 15px;
+    width: 15px;
+    /* margin-right: 20px; */
+
+}
+.div-3-11{
+    margin-left: 100px;
+    display: inline;
+    
+}
+.Edit-icon{
+    background-color: white;
+    width: 10px;
+}
+
+
 
 img{
     height: 100px;
@@ -116,10 +143,7 @@ img{
 p{
     color: grey;
     font-weight: bold;
-    font-size: 13px;
-}
-h3{
-    font-size: 20px;
+    
 }
 .setting-1{
     height: 50px;
@@ -132,6 +156,5 @@ h3{
     
     height: 50px;
 }
-
 
 

@@ -4,7 +4,8 @@ import cancel from './images/cancel.png'
 
 
 
-function EditEmployee(){
+function EditEmployee(isOpen){
+   if (!isOpen) return null;
     return(
 
 

@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
@@ -17,8 +17,11 @@ import './index.css';
 
 import Employee1 from './Employee';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
 
+// import ListView from './list';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(<ListView/>);
 
 root.render(<Employee1/>);
 

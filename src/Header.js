@@ -7,9 +7,7 @@ import flag from './images/flag.jpg'
 import img9 from './images/img9.jpeg'
 import { IoIosNotificationsOutline } from "react-icons/io";
 import { FiMessageCircle } from "react-icons/fi";
-// import NavDropdown from 'react-bootstrap/NavDropdown';
-// import Nav from 'react-bootstrap/Nav'
-// import { FaBell,FaComment } from "react-icons/fa";
+
 
 
 function Navbar(){
